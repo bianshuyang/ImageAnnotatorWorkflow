@@ -58,7 +58,7 @@ The Image Rectangle Drawer application relies on the following Python libraries:
 2. os and sys: To handle file operations and system-level functionality.
 Make sure you have these libraries installed to run the application successfully.
 
-## Contributing
+## Contributing and future steps
 This code is written to help a friend with the project on batch image annotations and text conversion that have both texts and tables at Emory.
 There are many bugs that are not solved yet. Including:
 1) Not synchronizing the deleted rectangles
@@ -67,6 +67,7 @@ There are many bugs that are not solved yet. Including:
 4) Database not yet set up for best performance.
 5) Not yet imported Google Vision.
 6) Lack of access administration.
+7) Need to integrate with OCR
 Please email simon.bian@emory.edu, or wechat simonbian2002 for more information.
 Current expected use: a google image annotator would annotate automatically. A human supervisor / annotator would annotate the image using this workflow. Using github, he or she would be automatically assigned tasks (about 100 images) pulled from a centralized directory. Each end of business day, annotator is expected to push to origins to update all work. This allows for supervised annotations on image-based document segmentation task as a completed workflow. 
 
